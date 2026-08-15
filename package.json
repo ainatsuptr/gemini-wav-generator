@@ -1,0 +1,27 @@
+{
+  "name": "gemini-wav-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI to generate WAV audio from text using Gemini TTS via Vertex AI",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainatsuptr/gemini-wav-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ainatsuptr/gemini-wav-generator/issues"
+  },
+  "homepage": "https://github.com/ainatsuptr/gemini-wav-generator#readme",
+  "scripts": {
+    "generate": "bun run src/generate-wav.mjs",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@ai-sdk/google-vertex": "^5.0.16",
+    "ai": "^7.0.22"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}

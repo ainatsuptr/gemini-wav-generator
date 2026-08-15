@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+output/*.wav
+!output/.gitkeep
+
+.DS_Store
+Thumbs.db
+*.log
+*.pem
+*-credentials.json
+application_default_credentials.json
+
